@@ -1,0 +1,160 @@
+/* Color Palette
+#EDAFB8
+#FFCFF
+#F08080
+#FFF0F5
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #FFCFF;
+  font-family: spartan;
+  margin: 0;
+}
+
+img {
+  max-width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow {
+  filter: drop-shadow(8px 8px 10px lightpink);
+}
+
+p {
+  font-size: 20px;
+}
+
+header h1 {
+  font-family: "Quattrocento Sans";
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+header h2 {
+  font-family: "Quattrocento Sans";
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+}
+h3 {
+  font-family: "Quattrocento Sans";
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.profile-img {
+  /*width: 300px;
+  float: left;
+  margin-right: 30px;*/
+  border-radius: 50%;
+}
+
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%;
+  float: left;
+  min-height: 225px;
+}
+
+nav {
+  position: fixed;
+  background: #EDAFB8;
+  margin-bottom: 5px;
+  padding: 15px;
+  width: 100%;
+}
+nav a {
+  color: #FFF0F5;
+  background: transparent;
+  margin: 0 85px;
+}
+
+a {
+  color: #FFF0F5;
+  background: transparent;
+  margin: 0 15px;
+}
+
+.display {
+  text-align: center;
+}
+
+.display a {
+  padding: 25px;
+  display: inline-block;
+}
+/* Header & Footer 
+------------------------------------*/
+header {
+  background: #F08080;
+  width: 100%;
+}
+
+footer {
+  background: #F08080;
+  width: 100%;
+  text-align: center;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+#workexperience {
+  background-color: #FFF0F5;
+}
+.wexperience {
+  background: #FEDDE8;
+}
+
+/* Education
+------------------------------------*/
+#education {
+  background-color: ;
+  background-image: url(https://cdn.glitch.com/34806479-3d5b-457e-8212-f972b9a4ed43%2Ff983d3cf-5286-4b82-bd5c-15b1e1554f28.image.png?v=1583880431789);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0px 0px;
+  background-size: 100%;
+}
+.education {
+  padding: 20px;
+  height: 100%;
+  color: #eeeeee;
+  background: rgba(7237, 175, 184, 0.5);
+}
+
+.alpha-img {
+}
